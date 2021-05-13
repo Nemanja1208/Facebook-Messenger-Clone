@@ -1,0 +1,16 @@
+.message{
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+}
+.message_User{
+    margin-left: auto;
+    text-align: left !important;
+}
+
+.messageCard{
+    background-color: rgb(226, 230, 235) !important;
+}
+.messageUser{
+    background-color: rgb(92, 172, 226) !important;
+}
