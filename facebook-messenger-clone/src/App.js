@@ -55,7 +55,7 @@ function App() {
       <form className="appForm">
         <FormControl className="appFormControll">
           {/* <InputLabel>Type a message</InputLabel> */}
-          <Input placeholder="Enter a message" className="appInputField" onChange={event => setInput(event.target.value)}/>
+          <Input placeholder="Enter a message" className="appInputField" value={input} onChange={event => setInput(event.target.value)}/>
           <IconButton
           className="appIconButton"
           disabled={!input}
